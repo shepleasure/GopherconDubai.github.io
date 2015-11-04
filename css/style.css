@@ -91,17 +91,32 @@ Main components
   float: left;
   margin: auto auto auto 4%;
 }
-
-.cd-main-nav {
-  float: right;
-  margin-right: 5%;
-  width: 44px;
-  height: 100%;
-  background: url("../images/cd-icon-menu.svg") no-repeat center center;
-  background-size: 44px 44px;
-  cursor: pointer;
+.navbar-custom a {
+    font-family: 'Open Sans';
+    background: transparent;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: normal;
 }
-  .cd-main-nav a:after {
+.navbar-custom {
+  background-color: transparent !important;
+  background-image: none;
+  -webkit-box-shadow : none;
+  box-shadow: none;
+  border-color: transparent;
+  padding-top: 10px;
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+  color: white !important;
+  background-color: transparent !important;
+  background-image: none;
+  -webkit-box-shadow : none;
+  box-shadow: none;
+}
+.navbar-custom a:after {
   content: '';
   display: block;
   margin: auto;
@@ -112,44 +127,23 @@ Main components
   margin-top: 4px;
   
 }
-/*.cd-main-nav a:hover {
-  color: #1D1E1F;
-}*/
-.cd-main-nav a:hover:after {
+.dropdown-menu {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.dropdown-menu > li > a 
+{
+  margin-left: 0px;
+}
+.dropdown-menu > li > a:hover {
+  background-color: transparent !important;
+  background-image: none;
+}
+.navbar-custom a:hover:after {
   width: 100%;
   background:#fff;
-  margin-top: 4px;
-  
-}
-.cd-main-nav ul {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-  line-height: 76px;
-}
-.cd-main-nav ul.is-visible {
-  -webkit-transform: translateY(50px);
-  -moz-transform: translateY(50px);
-  -ms-transform: translateY(50px);
-  -o-transform: translateY(50px);
-  transform: translateY(50px);
-  margin-top: 50px;
-}
-.cd-main-nav a {
-  display: block;
-  height: 50px;
-  line-height: 50px;
- /* padding-left: 5%;*/
-  background: #2f292a;
-  /*border-top: 1px solid #453c3d;*/
-  border-top:1px solid rgba(255, 255, 255, 0.25);
-  color : #fff;
-  /*text-shadow: 1px 1px #F3AD23;*/
+  margin-top: 4px; 
 }
 .cd-scrolling-bg {
   position: relative;
@@ -533,87 +527,7 @@ h3 {
 .logo {
   display: none;
 }
-  .cd-main-nav {
-    width: auto;
-    height: auto;
-    background: none;
-    cursor: auto;
-  }
-  .cd-main-nav ul {
-    position: static;
-    width: auto;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    line-height: 76px;
-  }
-  .cd-main-nav ul.is-visible {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  .cd-main-nav li {
-    display: inline-block;
-    margin-left: 0.5em;
-  }
-  .cd-main-nav a {
-    font-family: 'Open Sans';
-    display: inline-block;
-    height: auto;
-    line-height: normal;
-    background: transparent;
-    padding: .6em 1em;
-    border-top: none;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    font-size: 0.975rem;
-  }
- /*  .no-touch .cd-main-nav a:hover {
-    color: #12373F;
-    }*/
-  /*glow effect*/
-  .butn {
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  height: 30px;
-  width: 78px;
-/*  padding: .6em 1em;
-*/  margin-top: 4px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  line-height: 2px;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  font-size: 0.975rem;border-top: none;
-  }
-  .sm {
-  width: 100%;
-  }
-  .ghost {
-/*  margin-bottom: 8px;
-*/  text-align: center;
-  background-color: transparent;
-  color: #FFF;
-  border: 1px solid white;
   
-  transition: .2s ease;
-  }
-  &:hover {
-    background-color: #8b0000;
-    color:  #8b0000;
-    
-    transition: .2s ease;
-  }
-  button.butn.sm.ghost:hover {
-   color: #C2EAEB; border:1px solid #C2EAEB;
- }
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
@@ -736,87 +650,6 @@ h3 {
 .logo {
   display: none;
 }
-.cd-main-nav {
-    width: auto;
-    height: auto;
-    background: none;
-    cursor: auto;
-  }
-  .cd-main-nav ul {
-    position: static;
-    width: auto;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    line-height: 76px;
-  }
-  .cd-main-nav ul.is-visible {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  .cd-main-nav li {
-    display: inline-block;
-    margin-left: 1em;
-  }
-  .cd-main-nav a {
-    font-family: 'Open Sans';
-    display: inline-block;
-    height: auto;
-    line-height: normal;
-    background: transparent;
-    padding: 1em 0.6em;
-    border-top: none;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    font-size: 0.975rem;
-  }
- /*  .no-touch .cd-main-nav a:hover {
-    color: #e1b6f9;
-    }*/
-  /*glow effect*/
-  .butn {
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  height: 30px;
-  width: 78px;
-/*  padding: .6em 1em;
-*/  margin-top: 4px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  line-height: 2px;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  font-size: 0.975rem;border-top: none;
-  }
-  .sm {
-  width: 100%;
-  }
-  .ghost {
-/*  margin-bottom: 8px;
-*/  text-align: center;
-  background-color: transparent;
-  color: #FFF;
-  border: 1px solid white;
-  
-  transition: .2s ease;
-  }
-  &:hover {
-    background-color: #8b0000;
-    color:  #8b0000;
-    
-    transition: .2s ease;
-  }
-  button.butn.sm.ghost:hover {
-   color: #C2EAEB; border:1px solid #C2EAEB;
- }
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
@@ -929,87 +762,7 @@ h3 {
   max-width: 80%;
   margin: 0 auto;
 }
-  .cd-main-nav {
-    width: auto;
-    height: auto;
-    background: none;
-    cursor: auto;
-  }
-  .cd-main-nav ul {
-    position: static;
-    width: auto;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    line-height: 76px;
-  }
-  .cd-main-nav ul.is-visible {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  .cd-main-nav li {
-    display: inline-block;
-    margin-left: 1em;
-  }
-  .cd-main-nav a {
-    font-family: 'Open Sans';
-    display: inline-block;
-    height: 80px;
-    line-height: normal;
-    background: transparent;
-    padding-top: 2em;
-    border-top: none;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    font-size: 0.975rem;
-  }
-/*   .no-touch .cd-main-nav a:hover {
-    color: #e1b6f9;
-    }*/
-  /*glow effect*/
-  .butn {
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  height: 30px;
-  width: 78px;
-/*  padding: .6em 1em;
-*/  margin-top: 4px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  line-height: 2px;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  font-size: 0.975rem;border-top: none;
-  }
-  .sm {
-  width: 100%;
-  }
-  .ghost {
-/*  margin-bottom: 8px;
-*/  text-align: center;
-  background-color: transparent;
-  color: #FFF;
-  border: 1px solid white;
   
-  transition: .2s ease;
-  }
-  &:hover {
-    background-color: #8b0000;
-    color:  #8b0000;
-    
-    transition: .2s ease;
-  }
-  button.butn.sm.ghost:hover {
-   color: #C2EAEB; border:1px solid #C2EAEB;
- }
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
@@ -1215,10 +968,7 @@ h3 {
     text-align: justify;
     color: rgba(241,241,241,0.6);
   }
-  .cd-main-nav a {
-      background-color: rgba(136, 75, 38, 0.6);
-      padding-left: 5%;
-    }
+  
     .footer-nav ul li {
   padding-right: 10px;  
 
@@ -1237,9 +987,7 @@ h3 {
   display: none;
 }
 
-.cd-main-nav ul.is-visible {
-  margin-top: 28px;
-}
+
 
 
 
@@ -1319,10 +1067,7 @@ h3 {
     color: rgba(241,241,241,0.6);
     text-align: justify;
   }
-  .cd-main-nav a {
-      background-color: rgba(136, 75, 38, 0.6);
-      padding-left: 5%;
-    }
+
   .footer-nav ul li {
   padding-right: 10px;   
 }
@@ -1337,12 +1082,6 @@ h3 {
     font-size: 12px;
   }
 
-/*#inner-page-2 {
-  display: none;
-  }*/
-.cd-main-nav ul.is-visible {
-  margin-top: 28px;
-}
 .gopher-home {
   position: absolute;
   left: 50%;
