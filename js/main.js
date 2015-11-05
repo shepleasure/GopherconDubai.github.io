@@ -5,13 +5,13 @@ jQuery(document).ready(function($){
 	});
 
 	//text for collapse button
-	$('.more').click(function(){
-		var $this = $(this);
-		$this.toggleClass('less');
-		if($this.hasClass('less')){
-			$this.html('Read Less');			
-		} else {
-			$this.html('Read More');
-		}
-	});	
+	// $('.more').click(function(){
+	// 	var $this = $(this);
+	// 	$this.toggleClass('less');
+	// 	if($this.hasClass('less')){
+	// 		$this.hide;			
+	// 	} else {
+	// 		$this.html('Read More');
+	// 	}
+	// });	
 });
