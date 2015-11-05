@@ -116,7 +116,7 @@ Main components
   -webkit-box-shadow : none;
   box-shadow: none;
 }
-.navbar-custom a:after {
+.navbar-right a:after {
   content: '';
   display: block;
   margin: auto;
@@ -124,8 +124,7 @@ Main components
   width: 0px;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
-  margin-top: 4px;
-  
+  margin-top: 4px; 
 }
 .dropdown-menu {
   color: #000;
@@ -564,19 +563,20 @@ h3 {
 .gopher-home {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width:300px;
-
+  height: 300px;
 }
 .register {
   position: absolute;
   left: 50%;
-  top: 80%;
+  top: 82%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -584,7 +584,7 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 10%;
+  height: 40px;
 }
 .home-dubai {
   font-size: 60px;
@@ -685,19 +685,20 @@ h3 {
 .gopher-home {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width:300px;
-
+  height: 280px;
 }
 .register {
   position: absolute;
   left: 50%;
-  top: 80%;
+  top: 82%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -705,7 +706,7 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 15%;
+  height: 40px;
 }
 .home-dubai {
   font-size: 40px;
@@ -753,7 +754,7 @@ h3 {
 
   }
  /* Small Devices, Tablets */
-@media only screen and (min-width : 769px) and (max-width : 992px) {
+@media only screen and (min-width : 768px) and (max-width : 992px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -798,19 +799,20 @@ h3 {
 .gopher-home {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width:300px;
-
+  height: 220px;
 }
 .register {
   position: absolute;
   left: 50%;
-  top: 80%;
+  top: 82%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -818,7 +820,7 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 17%;
+  height: 40px;
 }
 .home-dubai {
   font-size: 32px;
@@ -862,11 +864,14 @@ h3 {
 #venue-2 {
   display: none;
 }
+.navbar-right li {
+  margin-left: -15px !important;
+}
 
 
    }
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 481px) and (max-width : 768px) {
+@media only screen and (min-width : 481px) and (max-width : 767px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -911,7 +916,7 @@ h3 {
 .gopher-home {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
 /*  bottom: auto;
   right: auto;*/
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -919,13 +924,12 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width:300px;
-
+  height: 180px;
 }
 .register {
   position: absolute;
   left: 50%;
-  top: 80%;
+  top: 82%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -933,7 +937,7 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 20%;
+  height: 40px;
 }
 .home-dubai {
   font-size: 35px;
@@ -1085,7 +1089,7 @@ h3 {
 .gopher-home {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
 /*  bottom: auto;
   right: auto;*/
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1093,8 +1097,7 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width:250px;
-
+  height: 150px;
 }
 .register {
   position: absolute;
@@ -1107,7 +1110,7 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 25%;
+  height: 35px;
 }
 }
 
