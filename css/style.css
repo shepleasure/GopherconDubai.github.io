@@ -157,22 +157,22 @@ Main components
 }
 
 .cd-scrolling-bg.cd-color-1 {
-  background-color:#0B032D;
+  background-color:#1B1754;
   color: #3d3d3d;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color: #0B032D;
+  background-color: #1B1754;
   color: #3d3d3d ;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: #0B032D;
+  background-color: #1B1754;
   color: #3d3d3d;
 }
 .portfolio-item {
     margin-bottom: 25px;
 }
 .portfolio-item p {
-  font-size: 13px;
+  font-size: 16px;
 }
 .portfolio-item h3 a{
   color:#8b0000 !important;
@@ -358,7 +358,7 @@ h3 {
   color: #78828D
 }
 .footer-bottom {
-  background: #0B032D;
+  background: #1B1754;
   border-top: 1px solid #74546A;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -475,7 +475,7 @@ h3 {
 }
 
 .container-section {
-    background-color: #0B032D;
+    background-color: #1B1754;
     padding: 20px 30px;
     margin-top: 50px;
     color: rgba(241,241,241,0.9);
@@ -1093,32 +1093,6 @@ h3 {
     font-size: 12px;
   }
 
-.gopher-home {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-/*  bottom: auto;
-  right: auto;*/
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 150px;
-}
-.register {
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 35px;
-}
 .btn-sponsor {
   font-size: 16px !important;
   width: 270px !important;
@@ -1128,24 +1102,24 @@ h3 {
 
 #about {
   padding-bottom: 40px;
-  background-color: #0B032D;
+  background-color: #1B1754;
 }
 #speakers {
   padding-bottom: 40px;
-  background-color: #0B032D;
+  background-color: #1B1754;
 }
 #sponsors {
   padding-bottom: 40px;
-  background-color: #0B032D;
+  background-color: #1B1754;
 }
 .panel-body {
-  background-color: #0B032D !important;
+  background-color: #1B1754 !important;
 }
 .panel {
   border: none !important;
 }
 .juicer-feed.image-grid li.feed-item.words .j-text, .juicer-feed.slider li.feed-item.words .j-text, .juicer-feed.hip li.feed-item.words .j-text {
-  background-color: #0B032D !important;
+  background-color: #1B1754 !important;
 }
 .juicer-feed h1.referral {
     display: none !important;
@@ -1178,4 +1152,116 @@ div.cambio {
 }
 .footer-ul {
   margin-left: -10px;
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) and (orientation: landscape) {
+  .gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 150px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 40px;
+}
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) and (orientation: portrait) {
+  .gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 250px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 40px;
+}
+}
+@media only screen and (min-width : 481px) and (max-width : 767px) and (orientation: landscape) {
+.gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 150px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 40px;
+}
+}
+@media only screen and (min-width : 481px) and (max-width : 767px) and (orientation: portrait) {
+ .gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 250px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 40px;
+} 
 }
