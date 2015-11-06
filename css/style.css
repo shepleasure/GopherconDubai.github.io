@@ -173,6 +173,7 @@ Main components
 }
 .portfolio-item p {
   font-size: 16px;
+  text-align: justify;
 }
 .portfolio-item h3 a{
   color:#8b0000 !important;
@@ -366,7 +367,7 @@ h3 {
 .copyright p {
   margin-top: 9px;
   padding-left: 3px;
-  color: #74546A;
+  color: rgba(255, 255, 255, 0.5);
   font-size:12px;
   text-align: justify;
 }
@@ -394,7 +395,7 @@ h3 {
   font-weight: bolder;
 }
 .speaker-twit {
-    color: #74546A;
+    color:  #FFB997;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -404,7 +405,7 @@ h3 {
     text-align: center;
 }
 .speaker-twit:hover {
-  color: #FFB997;
+  color:#74546A;
 } 
 .footer-logos {
   margin-bottom: 30px;
@@ -440,7 +441,7 @@ h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #fff !important;
   font-size: 14px;
   text-align: center !important;
 }
@@ -574,12 +575,12 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 300px;
+  height: 350px;
 }
 .register {
   position: absolute;
   left: 50%;
-  top: 82%;
+  top:70%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -587,8 +588,8 @@ h3 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 40px;
-}
+  height: 45px;
+} 
 .home-dubai {
   font-size: 60px;
 }
@@ -685,32 +686,6 @@ h3 {
   font-size: 50px;
   /*color: white;*/
 }
-.gopher-home {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-/*  bottom: auto;
-  right: auto;*/
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 280px;
-}
-.register {
-  position: absolute;
-  left: 50%;
-  top: 82%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 40px;
-}
 .home-dubai {
   font-size: 40px;
 }
@@ -799,32 +774,6 @@ h3 {
   font-size: 50px;
   /*color: white;*/
 }
-.gopher-home {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-/*  bottom: auto;
-  right: auto;*/
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 220px;
-}
-.register {
-  position: absolute;
-  left: 50%;
-  top: 82%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 40px;
-}
 .home-dubai {
   font-size: 32px;
 }
@@ -867,8 +816,8 @@ h3 {
 #venue-2 {
   display: none;
 }
-.navbar-right li {
-  margin-left: -15px !important;
+.navbar-right li a{
+  margin-left: -10px !important;
 }
 
 
@@ -918,32 +867,7 @@ h3 {
   font-size: 45px;
   /*color: white;*/
 }
-.gopher-home {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-/*  bottom: auto;
-  right: auto;*/
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 180px;
-}
-.register {
-  position: absolute;
-  left: 50%;
-  top: 82%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  height: 40px;
-}
+
 .home-dubai {
   font-size: 35px;
 }
@@ -1151,7 +1075,7 @@ div.cambio {
   padding-right: 15px;
 }
 .footer-ul {
-  margin-left: -10px;
+  margin-left: -38px;
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) and (orientation: landscape) {
   .gopher-home {
@@ -1198,7 +1122,7 @@ div.cambio {
 .register {
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 75%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1221,7 +1145,7 @@ div.cambio {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 150px;
+  height: 160px;
 }
 .register {
   position: absolute;
@@ -1234,7 +1158,7 @@ div.cambio {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 40px;
+  height: 43px;
 }
 }
 @media only screen and (min-width : 481px) and (max-width : 767px) and (orientation: portrait) {
@@ -1249,7 +1173,7 @@ div.cambio {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 250px;
+  height: 300px;
 }
 .register {
   position: absolute;
@@ -1262,6 +1186,118 @@ div.cambio {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 40px;
+  height: 45px;
+} 
+}
+@media only screen and (min-width : 768px) and (max-width : 992px) and (orientation: landscape) {
+ .gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 300px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 43px;
+} 
+}
+@media only screen and (min-width : 768px) and (max-width : 992px) and (orientation: portrait) {
+ .gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 350px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 45px;
+} 
+}
+@media only screen and (min-width : 993px) and (max-width : 1200px) and (orientation: landscape) {
+.gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 300px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top:75%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 45px;
+} 
+}
+@media only screen and (min-width : 993px) and (max-width : 1200px) and (orientation: portrait) { 
+.gopher-home {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+/*  bottom: auto;
+  right: auto;*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 350px;
+}
+.register {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 45px;
 } 
 }
