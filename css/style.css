@@ -1036,10 +1036,10 @@ h3 {
   padding-bottom: 40px;
   background-color: #1B1754;
 }
-.panel-body {
+.panel-body-cust {
   background-color: #1B1754 !important;
 }
-.panel {
+.panel-cust {
   border: none !important;
 }
 .juicer-feed.image-grid li.feed-item.words .j-text, .juicer-feed.slider li.feed-item.words .j-text, .juicer-feed.hip li.feed-item.words .j-text {
@@ -1300,4 +1300,10 @@ div.cambio {
   transform: translateX(-50%) translateY(-50%);
   height: 45px;
 } 
+}
+.panel-height {
+  height: 400px;
+}
+.panel-body-height {
+  height: 210px;
 }
