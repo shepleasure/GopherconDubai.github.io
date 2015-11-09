@@ -1305,5 +1305,23 @@ div.cambio {
   height: 400px;
 }
 .panel-body-height {
-  height: 210px;
+  height: 240px;
+}
+.one {
+  margin-top: 45px;
+}
+.two {
+  margin-top: 70px;
+}
+.three {
+  margin-top: 18px;
+}
+.four {
+  margin-top: 45px;
+}
+.five {
+  margin-top: 6px;
+}
+.six {
+  margin-top: 70px;
 }
